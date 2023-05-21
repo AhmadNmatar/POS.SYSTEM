@@ -1,0 +1,16 @@
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/CashPayment.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/Quantity.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/view/View.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/SaleLog.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/Printer.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/ItemRegistry.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/startup/Main.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/Sale.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/SaleDTO.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/AccountingSystem.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/controller/Controller.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/ItemDTO.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/Receipt.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/ItemDescription.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/integration/InventorySystem.java
+/Users/ahmadmatar/NetBeansProjects/AmazingPOS/src/main/java/se/kth/iv1350/amazingpos/model/Amount.java

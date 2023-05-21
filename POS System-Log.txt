@@ -1,0 +1,1152 @@
+17 maj 2023 19:46:30, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+17 maj 2023 19:49:34, Exception was thrown: Failed to Access data base
+se.kth.iv1350.amazingpos.integration.DBAccessFailedException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:38)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:22)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+17 maj 2023 19:49:34, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 07:05:15, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 07:05:15, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 10:07:46, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 10:07:46, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 10:16:17, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.lambda$testSearchItemDataBaseHandlerException$1(ControllerTest.java:107)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.testSearchItemDataBaseHandlerException(ControllerTest.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:142)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+18 maj 2023 10:28:13, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.lambda$testSearchItemDataBaseHandlerException$1(ControllerTest.java:89)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.testSearchItemDataBaseHandlerException(ControllerTest.java:88)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:142)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+18 maj 2023 10:30:00, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.lambda$testSearchItemDataBaseHandlerException$1(ControllerTest.java:86)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.testSearchItemDataBaseHandlerException(ControllerTest.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:142)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+18 maj 2023 10:57:38, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 10:57:38, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 11:03:52, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.lambda$testSearchItemDataBaseHandlerException$1(ControllerTest.java:94)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:37)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:2952)
+	at se.kth.iv1350.amazingpos.controller.ControllerTest.testSearchItemDataBaseHandlerException(ControllerTest.java:94)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:205)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:201)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:142)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:117)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+18 maj 2023 11:04:47, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 11:04:47, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 16:29:30, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:71)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 16:29:30, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:77)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:48)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:00:50, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:00:50, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:13:43, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:13:43, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:16:40, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:16:40, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:18:02, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+18 maj 2023 18:18:02, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:13:53, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:13:53, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:34:02, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:34:02, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:56:24, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 07:56:24, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 21:03:59, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 21:03:59, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 21:06:24, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:75)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+19 maj 2023 21:06:24, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:81)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:50)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:24)
+
+
+20 maj 2023 21:04:21, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:04:21, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:10:53, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:10:53, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:17:26, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:17:26, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:20:21, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:20:21, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:33:37, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:33:37, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:36:01, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:36:01, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:38:07, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:38:07, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:45:56, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:45:56, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:46:12, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:46:12, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:51:43, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:51:43, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:54:27, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:54:27, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:56:08, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:56:08, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:59:57, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 21:59:57, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:09:49, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:09:49, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:11:44, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:11:44, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:12:27, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:12:27, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:13:43, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:13:43, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:16:02, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:16:02, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:22:06, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:22:06, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:22:32, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:22:32, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:23:45, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:23:45, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:30:51, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:30:51, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:39:35, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:39:35, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:45:25, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:45:25, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:47:01, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:47:01, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:48:01, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:48:01, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:48:28, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:48:28, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:49:05, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:49:05, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:50:31, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:50:31, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:52:09, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:52:09, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:53:01, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:53:01, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:53:35, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+20 maj 2023 22:53:35, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 07:52:10, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 07:52:10, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 07:52:35, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 07:52:35, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 09:13:47, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:80)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 09:13:47, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:86)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:10:00, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:79)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:10:00, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:85)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:12:13, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:79)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:12:13, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:85)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:13:53, Exception was thrown: Failed to Access data base
+java.sql.SQLException: Failed to Access data base
+	at se.kth.iv1350.amazingpos.integration.ItemRegistry.getScanedItem(ItemRegistry.java:39)
+	at se.kth.iv1350.amazingpos.integration.InventorySystem.matchItem(InventorySystem.java:24)
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:79)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
+21 maj 2023 18:13:53, Exception was thrown: Can not access data base
+se.kth.iv1350.amazingpos.controller.DataBaseHandlerException: Can not access data base
+	at se.kth.iv1350.amazingpos.controller.Controller.searchItem(Controller.java:85)
+	at se.kth.iv1350.amazingpos.view.View.runFakeExcution(View.java:51)
+	at se.kth.iv1350.amazingpos.startup.Main.main(Main.java:26)
+
+
