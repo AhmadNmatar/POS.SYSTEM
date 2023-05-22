@@ -104,8 +104,16 @@ public class Sale {
     
     private void notifyObservers() {
         for (SaleObserver obs : saleObservers) {
-            obs.newSale(totalPrice);
+            if(totalPriceAfterDiscount.getValue() > 0.0){
+                obs.newSale(totalPriceAfterDiscount);
+            }
+            else{
+                obs.newSale(totalPrice);
+            }
         }
+    }
+    public void addSaleObserver(SaleObserver obs){
+        saleObservers.add(obs);
     }
     /**
      * All the specified observers will be notified when this rental has been paid.

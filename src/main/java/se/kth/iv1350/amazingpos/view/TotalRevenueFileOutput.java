@@ -19,8 +19,8 @@ public class TotalRevenueFileOutput implements SaleObserver{
     private Amount totalIncome = new Amount(0.0);
     
     public TotalRevenueFileOutput(){
-         try{
-        totalRevenueFile = new PrintWriter(new FileWriter(LOG_FILE_NAME, true));
+        try{
+        totalRevenueFile = new PrintWriter(new FileWriter(LOG_FILE_NAME, true),true);
         } catch(IOException exp){
             System.out.println("Could not create logger.");
             exp.printStackTrace();
@@ -44,7 +44,7 @@ public class TotalRevenueFileOutput implements SaleObserver{
         logMsgBuilder.append("\t The total income for today:");
         totalRevenueFile.println(logMsgBuilder);
         printNewLine();
-        totalRevenueFile.println("Total income:\t\t" + totalIncome.getValue() + " SEK");
+        totalRevenueFile.println("Total income:\t\t" + totalIncome + " SEK");
         printNewLine();
     }
     

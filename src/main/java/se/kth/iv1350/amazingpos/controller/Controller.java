@@ -35,11 +35,12 @@ public class Controller {
     private SaleLog saleLog;
     private DiscountDB discountDB;
     private LogHandler logger;
-    private List<SaleObserver> saleObservers = new ArrayList<>();
+    private List<SaleObserver> saleObservers;
     /**
      * This constructor creates a new Controller object with a specified Printer and SaleLog object.
      * @param printer the printer to be used for printing receipts
      * @param saleLog the sale log to keep track of sales
+     * @param discountDB
      */
     public Controller(Printer printer, SaleLog saleLog, DiscountDB discountDB){
         InvSystem = new InventorySystem();
@@ -49,6 +50,7 @@ public class Controller {
         this.saleLog = saleLog;
         this.logger = new LogHandler();
         this.discountDB = discountDB;
+        saleObservers = new ArrayList<>();
     }
     
     /**

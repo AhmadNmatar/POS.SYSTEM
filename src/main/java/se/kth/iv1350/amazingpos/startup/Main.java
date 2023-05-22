@@ -24,6 +24,6 @@ public class Main {
         Controller control = new Controller(printer, saleLog, discountDB);
         View view = new View(control);
         view.runFakeExcution();
-        
+        view.runFakeExcutionWithDiscount();
     }
 }
