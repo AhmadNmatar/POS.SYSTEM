@@ -2,6 +2,8 @@
 
 A Java-based Point-of-Sale (POS) system for sales and checkout scenarios. The application demonstrates a layered design with a controller, domain model, external-system integrations, console-style view, and startup entry point.
 
+> **Project note:** This project was developed for the IV1350 Object Oriented Design course.
+
 ## Features
 
 - Start and complete sales
